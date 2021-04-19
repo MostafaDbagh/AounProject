@@ -6,5 +6,5 @@ const userCtrl = require('../controllers/customer-ctrl')
 
 router.post('/finance',userCtrl.createFinance)
 router.post('/subscribe',userCtrl.createSubscibe)
-router.post('/how',userCtrl.createContact)
+router.post('contact/how',userCtrl.createContact)
 module.exports = router
