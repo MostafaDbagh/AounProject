@@ -7,7 +7,7 @@ const cors =require('cors')
 const app = express();
 const userRoute = require('./routes/customer-route')
 const port = process.env.PORT ||3555;
-mongoURI='mongodb+srv://safi:35064612@cluster0-ags3s.mongodb.net/test?retryWrites=true&w=majority'
+mongoURI='mongodb+srv://safi:35064612@cluster0-ags3s.mongodb.net/finance?retryWrites=true&w=majority'
 
 mongoose.connect(mongoURI||'mongodb://127.0.0.1:27017/fuckoff',{useNewUrlParser:true,useUnifiedTopology: true})
 .catch((err)=>{

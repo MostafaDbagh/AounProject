@@ -8,11 +8,11 @@
     "start": "node server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":"cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "engines": {
-    "node":"10.16.0",
-    "npm":"6.9.0"
+    "node": "10.16.0",
+    "npm": "6.9.0"
   },
   "keywords": [],
   "author": "",

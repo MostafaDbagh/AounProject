@@ -10,4 +10,4 @@ const FinanceSchema = new mongoose.Schema(
     }
 )
 
-module.exports=mongoose.model('Contacts',FinanceSchema)
+module.exports=mongoose.model('contacts',FinanceSchema)
