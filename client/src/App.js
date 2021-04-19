@@ -43,7 +43,7 @@ await apis.insertUser(payload).then(res => {
     </div>
   </div>
      <div className="row">
-  <input type='submit' className="btn btn-primary mx-auto btn-lg" />
+  <input type='submit' className="btn btn-danger mx-auto btn-lg" />
   </div>
     </form>
    
