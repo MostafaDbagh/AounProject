@@ -31,7 +31,7 @@ const Service = () => {
         awnknow:'',
         message:''
     })
-    const handleContact = (e)=>{
+    const handleContact =async (e)=>{
 e.preventDefault()
 
 const span = [spanRef,spanRef1,spanRef2,spanRef3,spanRef4]
@@ -43,7 +43,7 @@ for(let  i = 0;i<=input.length-1;i++) if(input[i].value =='') return
 
         const {name,product,tel,awnknow,message} = contact;
         const payload =  {name,product,tel,awnknow,message}
-        apis.addContact(payload)
+      await  apis.addContact(payload)
         alert('add contact')
     }
     return ( 
