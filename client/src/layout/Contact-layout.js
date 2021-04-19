@@ -34,17 +34,18 @@ const Service = () => {
     const handleContact =async (e)=>{
 e.preventDefault()
 
-const span = [spanRef,spanRef1,spanRef2,spanRef3,spanRef4]
-const input = [inputRef1.current,inputRef2.current,inputRef3.current,inputRef4.current,inputRef5.current];
-input.map((item,i) => item.value =='' ? span[i].current.style.display='block':span[i].current.style.display='none')
+// const span = [spanRef,spanRef1,spanRef2,spanRef3,spanRef4]
+// const input = [inputRef1.current,inputRef2.current,inputRef3.current,inputRef4.current,inputRef5.current];
+// input.map((item,i) => item.value =='' ? span[i].current.style.display='block':span[i].current.style.display='none')
 
 
-for(let  i = 0;i<=input.length-1;i++) if(input[i].value =='') return
+// for(let  i = 0;i<=input.length-1;i++) if(input[i].value =='') return
 
         const {name,product,tel,awnknow,message} = contact;
         const payload =  {name,product,tel,awnknow,message}
-      await  apis.addContact(payload)
-        alert('add contact')
+        console.log(payload)
+      await apis.addContact(payload)
+        
     }
     return ( 
         <>

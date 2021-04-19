@@ -24,7 +24,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 app.use(cors())
 
-app.use('contact/how',userRoute)
+
 app.use('/api',userRoute)
 if(process.env.NODE_ENV ==='production'){
     app.use(express.static('client/build'))

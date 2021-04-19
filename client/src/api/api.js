@@ -11,7 +11,7 @@ const api = axios.create({
 const addFinance = payload => api.post('api/finance',payload)
 
 const addSubscriber = payload => api.post('api/subscribe',payload)
-const addContact = payload => api.post('contact/how',payload)
+const addContact = payload => api.post('api/message',payload)
 
 const apis = {addFinance,addSubscriber,addContact}
 
