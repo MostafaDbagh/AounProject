@@ -98,7 +98,7 @@ e.preventDefault()
  <Contactlabel htmlFor="cars">الرسالة</Contactlabel>  
  <Contactmessage ref={inputRef5} placeholder="الرسالة"  onChange={(e)=>setContact({
      ...contact,
-     name:e.target.value
+     message:e.target.value
  })}/> 
   <span style={spanStyle} ref={spanRef4}>الايميل المدخل غير صحيح</span>
  </DivInput>
