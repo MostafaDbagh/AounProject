@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const api = axios.create({
-    // baseURL:'https://thawing-harbor-47972.herokuapp.com/api'
-    baseURL:'http://localhost:3555/api'
+     baseURL:'https://thawing-harbor-47972.herokuapp.com/api'
+   // baseURL:'http://localhost:3555/api'
 })
 
 //export const insertUser = payloadd => api.post('/Login',payloadd)
