@@ -1,4 +1,4 @@
-const User = require('../model/customer-model');
+
 
 const Finance = require('../model/finance-schema')
 const Subscribe = require('../model/subscribe-model')
