@@ -1,0 +1,27 @@
+[
+{
+    "id":1,
+    "image":"hi.jpg",
+    "caption":"تمويل الأثاث   والأجهزة الكهربائية ",
+    "routes":"/varity/1"
+},
+{
+    "id":2,
+    "image":"hi.jpg",
+    "caption":"تمويل الاطارات وبطاريات السيارات الكهربائية(الهايبرد)",
+    "routes":"/varity/2"
+},
+{
+    "id":3,
+    "image":"hi.jpg",
+    "caption":"تمويل عون",
+   "routes":"/varity/3"
+},
+{
+    "id":4,
+    "image":"hi.jpg",
+    "caption":"تمويل السخانات والالواح الشمسية",
+    "routes":"/varity/4"
+}
+
+]

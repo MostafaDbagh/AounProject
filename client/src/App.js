@@ -1,55 +1,49 @@
-import React,{useState} from 'react';
-import apis from './api/api'
 
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './style/app.css'
+import {
+  Route,
+  Switch
+} from 'react-router-dom'
+import {
+  Home,
+  Contactlayout,
+  Aboutlayout,
+  Servicelayout,
+  Intro,
+  Speech,
+  Service1,
+  Service2,
+  Service3,
+  Service4
+ 
+} from './layout'
 
+import Layout from './components/layout'
 function App() {
-
-  const [name ,setName] = useState('')
-  const [email ,setEmail] = useState('')
-
-const handleName = (e)=>{
-  setName(e.target.value)
-}
-const handleEmail = (e)=>{
-  setEmail(e.target.value)
-}
-const submitRequest = async (e)=>{
-  e.preventDefault()
- const payload = {name,email}
-await apis.insertUser(payload).then(res => {
-  window.alert('user added successfully')
-  setEmail('')
-  setName('')
-})
-
-}
   return (
-    <div className="App">
-    <form onSubmit={submitRequest} className="mt-5">
-
+    <Layout>
+    <Switch>
+    <Route exact path='/' component={Home} />
+     <Route  path='/contact' component={Contactlayout} />
+    <Route  path='/service' component={Servicelayout} />
+    <Route  path='/about' component={Aboutlayout} />
+    <Route  path='/intro' component={Intro} />
+    <Route  path='/speech' component={Speech} />
+    <Route  path='/varity/1' component={Service1} />
+    <Route  path='/varity/2' component={Service2} />
+    <Route  path='/varity/3' component={Service3} />
+    <Route  path='/varity/4' component={Service4} />
+  
    
-        <div className="form-group row">
-    <label  className="col-sm-2 col-form-label h2 muted"> Name:</label>
-    <div className="col-sm-5">
-      <input type="text"  className="form-control" onChange={handleName} placeholder="Enter your Name"/>
-    </div>
-  </div>
-    
-  <div className="form-group row">
-    <label  className="col-sm-2 col-form-label h2 muted"> Email:</label>
-    <div className="col-sm-5">
-      <input type="email" className="form-control" onChange={handleEmail} placeholder="Enter your Email"  />
-    </div>
-  </div>
-     <div className="row">
-  <input type='submit' className="btn btn-danger mx-auto btn-lg" />
-  </div>
-    </form>
-   
-    </div>
+  </Switch>
+  </Layout>
   );
 }
 
 export default App;
+
+
+
+
+
 

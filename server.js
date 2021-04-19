@@ -6,8 +6,9 @@ const path = require('path')
 const cors =require('cors')
 const app = express();
 const userRoute = require('./routes/customer-route')
-const port = process.env.PORT ||3001;
+const port = process.env.PORT ||3555;
 mongoURI='mongodb+srv://safi:35064612@cluster0-ags3s.mongodb.net/test?retryWrites=true&w=majority'
+
 mongoose.connect(mongoURI||'mongodb://127.0.0.1:27017/fuckoff',{useNewUrlParser:true,useUnifiedTopology: true})
 .catch((err)=>{
     console.log(`an error was occure ${err}`)
@@ -19,8 +20,8 @@ mongoose.connection.on('error',(err)=>{
     console.log('connection failed to database',err.message)
 })
 
-app.use(bodyparser.json())
-app.use(bodyparser.urlencoded({extended:true}))
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 app.use(cors())
 
 
