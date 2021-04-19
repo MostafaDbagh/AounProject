@@ -1,6 +1,6 @@
 import{Div,ColumnSec,ArticleSec,Subinput,Subbutton,Anchorsocial} from '../style/subscribestyle'
 
-
+import React from 'react'
 
 import Aos from 'aos';
 import{useState,useEffect,useRef} from 'react'

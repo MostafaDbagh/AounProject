@@ -1,6 +1,7 @@
 import {Column,Header,Logo,Phone,Mail,Divbutton,Button } from '../style/headerstyle'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes, faEnvelope, faPhone,faBars } from '@fortawesome/free-solid-svg-icons'
+import React from 'react'
 import Navbar from './Navbar'
 import {useState} from 'react'
 import Logoimg from '../img/logo.png'

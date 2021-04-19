@@ -3,6 +3,7 @@ import {H1,H2,P}from '../style/productstyle'
 import {useState,useRef} from 'react'
 import {Subbutton} from '../style/subscribestyle'
 import apis from '../api/api'
+import React from 'react'
 const Service = () => {
     const spanStyle ={
         color:'red',

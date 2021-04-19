@@ -1,4 +1,5 @@
 import {Commondiv,H2} from '../style/commonstyle'
+import React from 'react'
 
 const Partner = () => {
     return ( 

@@ -6,7 +6,7 @@ import img1 from '../img/1.jpeg'
 import img2 from '../img/2.jpg'
 import img3 from '../img/3.png'
 import img4 from '../img/4.jpg'
-
+import React from 'react'
 const Customslider = () => {
     let[num,setNum] = useState(0)
     const imgArr = [img1,img2,img3,img4];

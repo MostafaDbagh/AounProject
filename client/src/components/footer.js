@@ -1,4 +1,5 @@
 import {Footersec,Footerp,FooterA}from '../style/footerstyle'
+import React from 'react'
 const Footer = () => {
     return ( 
 

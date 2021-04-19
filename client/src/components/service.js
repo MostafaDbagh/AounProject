@@ -1,5 +1,6 @@
 
 import {Main,Section,Select,Form,Input,Label,Inputdiv,Sectionbtn,Buttonud,Buttondiv} from '../style/servicestyle'
+import React from 'react'
 import {Anchor} from '../style/headerstyle'
 import {Commondiv,H2} from '../style/commonstyle'
 import {useState,useEffect,useRef} from 'react'

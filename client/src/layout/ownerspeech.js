@@ -1,6 +1,7 @@
 
 import {H1,P} from '../style/layoutstyle'
 import {useState,useEffect}from 'react'
+import React from 'react'
 const Speech = () => {
      const [sp,setSp] =useState([])
     useEffect(()=>fetch('./product.json').then(res =>res.json()).then(data =>setSp(data)),[])

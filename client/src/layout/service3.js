@@ -1,6 +1,6 @@
 
 import { Section } from "../style/servicestyle";
-
+import React from 'react'
 import{SectionPro,H2,Li,P}from '../style/productstyle'
 
 const ServiceTwo = () => {

@@ -1,6 +1,7 @@
 
 
 import {MainDiv,Overlay,H1,P} from '../style/mainstyle'
+import React from 'react'
 const Main  = () => {
   return (  
 
