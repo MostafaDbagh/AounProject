@@ -42,10 +42,10 @@ e.preventDefault()
 // for(let  i = 0;i<=input.length-1;i++) if(input[i].value =='') return
 
         const {name,product,tel,awnknow,message} = contact;
-        const payload =  {name,product,tel,awnknow,message}
+        const payload = {name,product,tel,awnknow,message}
         console.log(payload)
       await apis.addContact(payload)
-        
+        console.log('fininsh requ   ')
     }
     return ( 
         <>
