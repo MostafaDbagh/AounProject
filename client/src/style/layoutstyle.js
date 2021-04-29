@@ -42,12 +42,13 @@ export const Contactmessage = styled.textarea`
 padding:6px 12px;
 border-radius:5px;
 box-shadow:0px 0px 3px 0 #3e3e3e inset;
+position:relative;
 border:0;
 outline:0;
-width:538px;
+width:90%;
 height:162px;
 @media(max-width:670px){
-    width:345px;
+  
     height:120px
 }
 &::placeholder{

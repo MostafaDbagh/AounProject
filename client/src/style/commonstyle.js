@@ -1,5 +1,17 @@
 import styled from 'styled-components'
+import myimg from '../img/safi.jpg'
 
+export const Repeateddiv = styled.div`
+width:98%;
+height:220px;
+padding:0;
+margin:0;
+background:url(${myimg}) no-repeat;
+background-size:cover;
+margin:0 auto 32px auto;
+
+
+`
 
 export const Commondiv = styled.div`
 width:80%;

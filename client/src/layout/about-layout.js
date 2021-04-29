@@ -2,6 +2,7 @@ import {useState,useEffect,useRef} from 'react'
 import {Main} from '../style/servicestyle'
 import {Anchor} from '../style/headerstyle'
 import React from 'react'
+import {Repeateddiv} from '../style/commonstyle'
 const Service = () => {
     const [data,setData] = useState([]);
     useEffect(()=> fetch('./service.json').then(res =>res.json()).then(da =>setData(da)),[])
@@ -9,12 +10,14 @@ const Service = () => {
         width:"270px",
        height:"206px",
        texatAlign:"center",
-       margin:"8px",
+       margin:" 32px 8px",
     
    
        
        }
     return ( 
+      <>
+      <Repeateddiv/>
         <div style={{display:'flex',flexWrap:'wrap',justifyContent:'space-around',alignItems:'center'}}  >
  
  {data.map(item =>
@@ -32,6 +35,7 @@ const Service = () => {
            
                 )}
     </div>
+    </>
      );
 }
  

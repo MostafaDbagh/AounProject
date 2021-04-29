@@ -2,9 +2,12 @@
 import { Section } from "../style/servicestyle";
 import React from 'react'
 import{SectionPro,H2,Li,P}from '../style/productstyle'
+import { Repeateddiv } from "../style/commonstyle";
 
 const ServiceTwo = () => {
     return ( 
+        <>
+        <Repeateddiv/>
         <SectionPro>
 <H2>تقدم شركة العون خدماتها التمويلية لأصحاب المؤسسات و/أو الشركات الراغبين بشراء ما يحتاجونه من بضاعة
      او مستلزمات كهربائية لتطوير خدماتهم المقدمة لعملائهم
@@ -49,6 +52,7 @@ const ServiceTwo = () => {
 </ul>
 
         </SectionPro>
+        </>
      );
 }
  

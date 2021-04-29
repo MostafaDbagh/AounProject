@@ -1,9 +1,12 @@
 import { Section } from "../style/servicestyle";
 import{SectionPro,H2,Li,P}from '../style/productstyle'
 import React from 'react'
+import { Repeateddiv } from "../style/commonstyle";
 
 const Serviceond = () => {
     return ( 
+        <>
+        <Repeateddiv/>
         <SectionPro>
 <H2>
     تمويل السخانات والالواح الشمسية</H2>
@@ -35,6 +38,7 @@ const Serviceond = () => {
 </ul>
 
         </SectionPro>
+        </>
      );
 }
  

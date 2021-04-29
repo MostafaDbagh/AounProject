@@ -2,9 +2,12 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import {P,Introdiv,H1,Intorsection,Introli,Introul} from '../style/layoutstyle'
 import React from 'react'
+import { Repeateddiv } from '../style/commonstyle'
 
 const Intro = () => {
     return ( 
+        <>
+        <Repeateddiv></Repeateddiv>
     <Introdiv>
         <H1>نبذة عن الشركة</H1>
 
@@ -46,7 +49,8 @@ const Intro = () => {
 
        
         </Intorsection>
-    </Introdiv> );
+    </Introdiv>
+    </> );
 }
  
 export default Intro;

@@ -2,11 +2,14 @@
 import {H1,P} from '../style/layoutstyle'
 import {useState,useEffect}from 'react'
 import React from 'react'
+import { Repeateddiv } from '../style/commonstyle'
 const Speech = () => {
      const [sp,setSp] =useState([])
     useEffect(()=>fetch('./product.json').then(res =>res.json()).then(data =>setSp(data)),[])
     console.log(sp)
     return ( 
+        <>
+        <Repeateddiv></Repeateddiv>
         <article style={{direction:'rtl',width:'74%',margin:'0 64px auto auto'}}>
             <H1>كلمة رئيس مجلس الإدارة</H1>
             <P>يطيب لي الترحيب بكم في الموقع الإلكتروني لشركة عون للتمويل والذي من  خلاله سيكون بإمكانكم الاطلاع على غايياتنا
@@ -40,7 +43,7 @@ const Speech = () => {
                 </tbody>
             </table>
         </article>
-
+</>
      );
 }
  
