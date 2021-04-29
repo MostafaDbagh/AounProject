@@ -24,6 +24,9 @@ export const H1 = styled.h1`
 font-size:48px;
 color:RGB(191,214,48);
 font-family:Cairo,sans-serif;
+@media(max-width:450px){
+    font-size:36px
+}
 
 `
 export const P = styled.p`
@@ -34,7 +37,7 @@ font-size:24px;
 color:RGB(248,248,251);
 font-family:Tajawal,sans-serif;
 @media(max-width:760px){
-    font-size:20px
+    font-size:16px
 }
 
 `

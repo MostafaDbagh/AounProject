@@ -10,6 +10,8 @@ margin: 0 auto 32px;
 display:grid;
 grid-template-columns:1fr 1fr;
 grid-gap:8px;
+justify-items:right;
+
 
 @media(max-width:670px){
  
@@ -50,13 +52,11 @@ color:rgb(248,248,251);
 line-height:20px;
 padding:10px 20px;
 font-family:tajawal,sans-serif;
-position:relative;
+margin-right:-99px;
 
 margin-top:16px;
-left:170px;
-@media(max-width:670px){
-    left:100px;
-}
+
+
 
 `
 export const Safinput = styled.input`

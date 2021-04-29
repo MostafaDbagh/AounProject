@@ -35,10 +35,10 @@ const Intro = () => {
         <article>
         <P style={{marginRight:'8px'}}><strong>قيمنا</strong></P>
         <Introul>
-            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{marginLeft:'16px',color:'rgb(10,183,255)'}}></FontAwesomeIcon><em>الالتزام بقيمنا الإسلامية</em></Introli>
-            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{marginLeft:'16px',color:'rgb(10,183,255)'}}></FontAwesomeIcon><em>العمل باحترافية وكفائة وبروح الفريق  الواحد</em></Introli>
-            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{marginLeft:'16px',color:'rgb(10,183,255)'}}></FontAwesomeIcon><em>نسعى دائما لإرضاء عملائنا</em></Introli>
-            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{marginLeft:'16px',color:'rgb(10,183,255)'}}></FontAwesomeIcon><em>احترام الموظفين ونثمن جهودهم في تحقيق اهداف الشركة</em></Introli>
+            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{color:'rgb(10,183,255)'}}></FontAwesomeIcon><p style={{marginRight:'10px',display:'inline-block',width:'90%'}}>الالتزام بقيمنا الإسلامية</p></Introli>
+            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{color:'rgb(10,183,255)'}}></FontAwesomeIcon><p style={{marginRight:'10px',display:'inline-block',width:'90%'}}>العمل باحترافية وكفائة وبروح الفريق  الواحد</p></Introli>
+            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{color:'rgb(10,183,255)'}}></FontAwesomeIcon><p style={{marginRight:'10px',display:'inline-block',width:'90%'}}>نسعى دائما لإرضاء عملائنا</p></Introli>
+            <Introli><FontAwesomeIcon icon={faCheckCircle} style={{color:'rgb(10,183,255)'}}></FontAwesomeIcon><p style={{marginRight:'10px',display:'inline-block',width:'90%'}}>     احترام الموظفين وتثمين جهودهم لتحقيق اهداف الشركة    </p></Introli>
         </Introul>
         </article>
 

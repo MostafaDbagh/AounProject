@@ -1,10 +1,9 @@
 import styled from 'styled-components'
 export const Introdiv = styled.div`
-width:92vw;
+width:98vw;
 margin:8px auto 32px;
 padding:15px;
 direction:rtl;
-
 overflow:hidden;
 `
 export const P = styled.p`
@@ -70,14 +69,17 @@ export const Introul= styled.ul`
 margin:0;
 padding:0;
 list-style:none;
+width:100%;
 
 `
 export const Introli=styled.li`
 list-style:none;
-padding:12px;
+padding:8px;
 margin:8px 0;
 font-size:18px;
 font-family:tajawal,sans-serif;
+
+
 `
 export const H1 = styled.h1`
 padding:20px;
