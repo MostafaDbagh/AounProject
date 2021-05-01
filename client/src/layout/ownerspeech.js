@@ -2,14 +2,15 @@
 import {H1,P} from '../style/layoutstyle'
 import {useState,useEffect}from 'react'
 import React from 'react'
-import { Repeateddiv } from '../style/commonstyle'
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/s2.jpg'
 const Speech = () => {
      const [sp,setSp] =useState([])
     useEffect(()=>fetch('./product.json').then(res =>res.json()).then(data =>setSp(data)),[])
     console.log(sp)
     return ( 
         <>
-        <Repeateddiv></Repeateddiv>
+        <Repeateddiv myimg={myimg}  />
         <article style={{direction:'rtl',width:'74%',margin:'0 64px 32px auto'}}>
             <H1>كلمة رئيس مجلس الإدارة</H1>
             <P>يطيب لي الترحيب بكم في الموقع الإلكتروني لشركة عون للتمويل والذي من  خلاله سيكون بإمكانكم الاطلاع على غايياتنا

@@ -238,7 +238,7 @@ return (
 
  {/* <Button>احسب</Button>
  <Button>تقديم طلب</Button> */}
- <Safinput type="submit"></Safinput>
+ <Safinput value="إرسال" ></Safinput>
  </Buttondiv> 
 
         </Form>

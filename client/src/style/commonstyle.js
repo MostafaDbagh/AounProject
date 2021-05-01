@@ -5,7 +5,7 @@ export const Repeateddiv = styled.div`
 width:100%;
 height:220px;
 padding:0;
-margin:0;
+margin:0 0 32px 0;
 // background:url(${myimg}) no-repeat;
 // background-size:cover;
 margin:0 auto 32px auto;

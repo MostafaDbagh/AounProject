@@ -1,10 +1,13 @@
 import {Contactinput,Contactlabel,DivInput,Introdiv,Contactmessage,Contactform} from '../style/layoutstyle'
 import {H1,H2,P}from '../style/productstyle'
-import {Repeateddiv}from '../style/commonstyle'
+
 import {useState,useRef} from 'react'
 import {Subbutton} from '../style/subscribestyle'
 import apis from '../api/api'
 import React from 'react'
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/s.jpg'
+
 const Service = () => {
     const spanStyle ={
         color:'red',
@@ -49,10 +52,7 @@ for(let  i = 0;i<=input.length-1;i++) if(input[i].value =='') return
         console.log('fininsh requ   ')
     }
     return ( 
-        <>
-             <Repeateddiv>
-                
-                </Repeateddiv>
+        <>   <Repeateddiv myimg={myimg}  />
         <Introdiv >
        
   <H1 >اتصل بنا</H1>

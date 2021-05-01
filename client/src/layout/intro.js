@@ -2,15 +2,16 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 import {P,Introdiv,H1,Intorsection,Introli,Introul} from '../style/layoutstyle'
 import React from 'react'
-import { Repeateddiv } from '../style/commonstyle'
-import myimg from '../img/safi1.jpg'
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/s6.jpg'
 
 const Intro = () => {
     return ( 
         <>
-        <Repeateddiv>
-            <img src={myimg} alt="headerfoto" style={{width:'100%',height:'100%'}}></img>
-        </Repeateddiv>
+        <Repeateddiv myimg={myimg}  />
+        
+          
+    
     <Introdiv>
         <H1>نبذة عن الشركة</H1>
 

@@ -10,7 +10,7 @@ padding:15px;
 background:rgb(255,255,255);
 @media(max-width:670px){
     width:100vw;
-    background:rgb(248,240,251)
+   
 }
 
 

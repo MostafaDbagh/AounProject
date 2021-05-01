@@ -2,7 +2,9 @@ import {useState,useEffect} from 'react'
 
 import {Anchor} from '../style/headerstyle'
 import React from 'react'
-import {Repeateddiv} from '../style/commonstyle'
+
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/s4.jpg'
 const Service = () => {
     const [data,setData] = useState([]);
     useEffect(()=> fetch('./service.json').then(res =>res.json()).then(da =>setData(da)),[])
@@ -18,7 +20,7 @@ const Service = () => {
        }
     return ( 
       <>
-      <Repeateddiv/>
+    <Repeateddiv myimg={myimg}  />
         <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center'}}  >
  
  {data.map(item =>
