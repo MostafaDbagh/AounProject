@@ -5,7 +5,7 @@ import Amman from '../img/amman.jpg'
 const breatheAnimation = keyframes`
  0% { left:-1000px;opacity:0 }
 
- 100% { left:0;opacity:1 }
+ 100% { left:0px;opacity:1 }
 `
 const textup = keyframes`
  0% { bottom:-1000px;opacity:0 }
@@ -15,6 +15,7 @@ const textup = keyframes`
 
 export const MainDiv = styled.div`
 width:100%;
+clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 height:550px;
 background:url(${Amman});
 background-size:cover;
@@ -33,7 +34,7 @@ justify-content:center;
 align-items:center;
 `
 export const H1 = styled.h1`
-font-size:48px;
+font-size:38px;
 color:RGB(191,214,48);
 position:relative;
 font-family:Cairo,sans-serif;
