@@ -8,7 +8,6 @@ import {
   Home,
   Contactlayout,
   Aboutlayout,
-  Servicelayout,
   Intro,
   Speech,
   Service1,
@@ -25,7 +24,7 @@ function App() {
     <Switch>
     <Route exact path='/' component={Home} />
      <Route  path='/contact' component={Contactlayout} />
-    <Route  path='/service' component={Servicelayout} />
+
     <Route  path='/about' component={Aboutlayout} />
     <Route  path='/intro' component={Intro} />
     <Route  path='/speech' component={Speech} />

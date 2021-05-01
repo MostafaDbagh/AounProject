@@ -45,7 +45,7 @@ box-shadow:0px 0px 3px 0 #3e3e3e inset;
 position:relative;
 border:0;
 outline:0;
-width:90%;
+width:91%;
 height:162px;
 @media(max-width:670px){
   

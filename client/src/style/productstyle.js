@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const SectionPro = styled.section`
 width:88vw;
-margin:0 auto;
+margin:0 auto 32px;
 direction:rtl;
 padding:8px;
 

@@ -30,7 +30,7 @@ font-family:Cairo,sans-serif;
 
 `
 export const P = styled.p`
-width:80%;
+width:90%;
 text-align:center;
 padding:16px;
 font-size:24px;

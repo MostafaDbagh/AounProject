@@ -1,5 +1,5 @@
-import {useState,useEffect,useRef} from 'react'
-import {Main} from '../style/servicestyle'
+import {useState,useEffect} from 'react'
+
 import {Anchor} from '../style/headerstyle'
 import React from 'react'
 import {Repeateddiv} from '../style/commonstyle'
@@ -10,7 +10,8 @@ const Service = () => {
         width:"270px",
        height:"206px",
        texatAlign:"center",
-       margin:" 32px 8px",
+       margin:" 32px auto",
+       texatAlign:"center"
     
    
        
@@ -18,16 +19,16 @@ const Service = () => {
     return ( 
       <>
       <Repeateddiv/>
-        <div style={{display:'flex',flexWrap:'wrap',justifyContent:'space-around',alignItems:'center'}}  >
+        <div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',alignItems:'center'}}  >
  
  {data.map(item =>
              
 
              <section key={item.id}  style={styles}    >
-             <figure>
+             <figure style={{textAlign:'center'}}>
                <img src={item.image} alt="Trulli" />
                <Anchor href={item.routes}>
-               <figcaption>{item.caption}</figcaption>
+               <figcaption >{item.caption}</figcaption>
                </Anchor>
              </figure>
              </section> 

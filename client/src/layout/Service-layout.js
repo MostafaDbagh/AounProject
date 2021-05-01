@@ -1,10 +1,11 @@
-
-import React from 'react'
-
-const Service = () => {
+import React from 'react';
+ 
+const ServiceLayout = () => {
     return ( 
-        <h1>Out service Layout</h1>
+        <h1>
+            hi
+        </h1>
      );
 }
  
-export default Service;
+export default ServiceLayout;

@@ -2,7 +2,7 @@
 import Home from './Home'
 import Contactlayout from './Contact-layout'
 import Aboutlayout from './about-layout'
-import Servicelayout from './Service-layout'
+
 import Intro from './intro'
 import Speech from './ownerspeech'
 import Service1 from './service1'
@@ -14,7 +14,7 @@ export {
     Home,
   Contactlayout,
   Aboutlayout,
-  Servicelayout,
+
   Intro,
   Speech,
   Service1,

@@ -10,7 +10,7 @@ const Speech = () => {
     return ( 
         <>
         <Repeateddiv></Repeateddiv>
-        <article style={{direction:'rtl',width:'74%',margin:'0 64px auto auto'}}>
+        <article style={{direction:'rtl',width:'74%',margin:'0 64px 32px auto'}}>
             <H1>كلمة رئيس مجلس الإدارة</H1>
             <P>يطيب لي الترحيب بكم في الموقع الإلكتروني لشركة عون للتمويل والذي من  خلاله سيكون بإمكانكم الاطلاع على غايياتنا
                 وأهدافنا وخدماتنا التمويلية المتوافقة مع أحكام الشريعة اللإسلامية والتزامنا بدعم وتنمية الاقتصاد الوطني
