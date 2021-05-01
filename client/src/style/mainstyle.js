@@ -41,7 +41,7 @@ font-family:Cairo,sans-serif;
 animation-name: ${breatheAnimation};
 animation-duration: 1.7s;
 animation-iteration-count: 1;
-animation-delay:0.7,
+animation-delay:1.2s,
 @media(max-width:450px){
     font-size:36px
 }
