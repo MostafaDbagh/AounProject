@@ -31,10 +31,6 @@ const Subscribe = () => {
             spanRef1.current.style.display='block'
             return
        
-        }else{
-            const payload = {sub_email};
-            await apis.addSubscriber(payload)
-            alert('we add subscrib successfuly')
         }
         const payload = {sub_email};
         await apis.addSubscriber(payload)
