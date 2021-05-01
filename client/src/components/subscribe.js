@@ -34,6 +34,7 @@ const Subscribe = () => {
         }
         const payload = {sub_email};
         await apis.addSubscriber(payload)
+        setSubemail('')
         alert('we add subscrib successfuly')
     
     }
