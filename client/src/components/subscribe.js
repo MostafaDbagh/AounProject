@@ -53,7 +53,7 @@ const Subscribe = () => {
     </Subinput>
     <span style={spanStyle} ref={spanRef1}>الايميل المدخل غير صحيح</span>
   
-    <Subbutton onClick={handleSubscribe}  >اشتراك</Subbutton>
+    <Subbutton onClick={()=>handleSubscribe}  >اشتراك</Subbutton>
     </ColumnSec>
 
 
