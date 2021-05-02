@@ -120,6 +120,8 @@ position:absolute;
 text-align:start;
 width: 220px;
 display:none;
+
+z-index:999;
 @media(max-width:670px){
     width:100%;
     border:1px solid blue;
