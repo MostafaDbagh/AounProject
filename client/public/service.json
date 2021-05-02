@@ -17,12 +17,7 @@
     "caption":"تمويل الاطارات وبطاريات السيارات الكهربائية(الهايبرد)",
     "routes":"/varity/2"
 },
-{
-    "id":3,
-    "image":"./images/6.png",
-    "caption":"تمويل عون",
-   "routes":"/varity/3"
-},
+
 {
     "id":4,
     "image":"./images/5.png",

@@ -65,7 +65,7 @@ const Subscribe = () => {
             <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'10%',fontFamily:'tajawal,sans-serif'}}><strong>العنوان. &nbsp;</strong>
                    عمان-الهاشمي الشمالي-اشارةمستشفى الأمير حمزة
                    <br/>-مجمع اسماعيل البلبيسي ط2 مكتب 2.</p>
-                   <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'10%',fontFamily:'tajawal,sans-serif'}}>info@awnfinance.com<strong>&nbsp;البريدالإلكتروني </strong></p>
+                   <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'10%',fontFamily:'tajawal,sans-serif'}}>info@Aounfinance.com<strong>&nbsp;البريدالإلكتروني </strong></p>
                   <Anchorsocial href="">صفحتنا على الفيس بوك</Anchorsocial>
 
            
