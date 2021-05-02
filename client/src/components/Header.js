@@ -16,11 +16,11 @@ const [isClicked,setClicked] = useState(false);
     </Logo>
     <Phone>
      <FontAwesomeIcon icon={faPhone} style={{ marginRight:'8px',color:'rgb(10,183,255)'}}/> 
-     <span style={{fontFamily:'tajawal,sans-serif',fontWeight:'bold',fontSize:'22px'}}>+077889929</span>  
+     <span style={{fontFamily:'tajawal,sans-serif',fontWeight:'bold',fontSize:'22px'}}>065055713</span>  
     </Phone>
     <Mail>
     <FontAwesomeIcon icon={faEnvelope} style={{ marginRight:'8px',color:'rgb(10,183,255)'}}/> 
-     <span style={{fontFamily:'tajawal,sans-serif',fontWeight:'bold',fontSize:'22px'}}>info@awnfinance.com</span>  
+     <span style={{fontFamily:'tajawal,sans-serif',fontWeight:'bold',fontSize:'22px'}}>info@Aounfinance.com</span>  
     </Mail>
 
     <Divbutton >
