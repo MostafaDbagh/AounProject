@@ -9,6 +9,7 @@ import Service1 from './service1'
 import Service2 from './service2'
 import Service3 from './service3'
 import Service4 from './service4'
+import Mangament from './mangment'
 
 export {
     Home,
@@ -20,7 +21,8 @@ export {
   Service1,
   Service2,
   Service3,
-  Service4
+  Service4,
+  Mangament
  
   
   

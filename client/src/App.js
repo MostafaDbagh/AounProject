@@ -13,7 +13,8 @@ import {
   Service1,
   Service2,
   Service3,
-  Service4
+  Service4,
+  Mangament
  
 } from './layout'
 import React from 'react'
@@ -25,6 +26,7 @@ function App() {
     <Route exact path='/' component={Home} />
      <Route  path='/contact' component={Contactlayout} />
 
+    <Route  path='/mangment' component={Mangament} />
     <Route  path='/about' component={Aboutlayout} />
     <Route  path='/intro' component={Intro} />
     <Route  path='/speech' component={Speech} />

@@ -14,7 +14,7 @@ const Navbar = () => {
     <Subul>
     <Sublist><Anchor href="/intro">نبذة عن الشركة</Anchor></Sublist>
     <Sublist><Anchor href="/speech">كلمة رئيس مجلس الإدارة</Anchor></Sublist>
-    <Sublist><Anchor href="#">الإدارة التنفيذية</Anchor></Sublist>
+    <Sublist><Anchor href="/mangment">الإدارة التنفيذية</Anchor></Sublist>
     </Subul>
     </List>
     </Unorderlist>
