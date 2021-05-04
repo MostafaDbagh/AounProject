@@ -9,6 +9,7 @@ const Mangment = () => {
         <Repeateddiv myimg={myimg}  />
         <article style={{direction:'rtl'}}>
             <H1>الإدارة التنفيذية</H1>
+            <div style={{width:"100%",height:"24px"}}></div>
             <table >
                 <tbody>
                     <tr>
@@ -40,7 +41,7 @@ const Mangment = () => {
                     </tr>
                     <tr>
                         <td>
-                            <p style={{margin:" 12px 84px 12px 0",fontSize:"22px",fontFamily:'cairo,sans-serif'}}><b>
+                            <p style={{margin:" 12px 84px 72px 0",fontSize:"22px",fontFamily:'cairo,sans-serif'}}><b>
                          
     رامي نجيب المومني
                                  </b></p></td>
