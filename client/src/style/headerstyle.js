@@ -97,7 +97,7 @@ position:relative;
 padding: 8px;
 
 
-&:nth-child(6):hover ul{
+&:nth-child(5):hover ul{
     display:block;
     
     }

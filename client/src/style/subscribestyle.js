@@ -90,8 +90,8 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 position:relative;
-margin:8px
-padding:15px;
+margin:8px 0;
+padding:8px;
 
 
 `
