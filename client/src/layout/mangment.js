@@ -8,7 +8,7 @@ const Mangment = () => {
         <>
         <Repeateddiv myimg={myimg}  />
         <article style={{direction:'rtl'}}>
-            <H1>الإدارة التنفيذية</H1>
+            <H1 style={{textAlign:'center'}}>الإدارة التنفيذية</H1>
             <div style={{width:"100%",height:"24px"}}></div>
             <table style={{display:'flex',justifyContent:'center',alignItems:'center'}} >
                 <tbody>
