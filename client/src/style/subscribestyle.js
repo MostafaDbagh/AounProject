@@ -46,17 +46,16 @@ export const Anchorsocial = styled.a`
 display:block;
 width;:170px;
 height:40px;
-margin-right:30px;
 background:rgb(46,49,144);
 text-decoration:none;
 color:rgb(248,248,251);
 line-height:20px;
 padding:10px 20px;
 font-family:tajawal,sans-serif;
-position:relative;
 
-margin-top:16px;
-left:170px;
+
+margin:12px 16px 12px auto;
+
 @media(max-width:670px){
     left:100px;
 }
