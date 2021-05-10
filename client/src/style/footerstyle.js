@@ -8,7 +8,7 @@ height:70px;
 text-align:end;
 font-familly:Cairo,sans-serif;
 line-height:70px;
-background:rgb(46,49,144);
+background:rgb(0,15,25);
 color:rgb(172,173,177);
 font-family:tajawal,sans-serif;
 margin-right:10%;
