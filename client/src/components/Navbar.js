@@ -8,7 +8,7 @@ const Navbar = () => {
     <List><Anchor href="/">الرئيسية</Anchor></List>
     <List><Anchor href="#">الأخبار</Anchor></List>
     <List><Anchor href="/contact">اتصل بنا</Anchor></List>
-    <List><Anchor href="#">موقعنا</Anchor></List>
+   
     <List><Anchor href="/about">منتجاتنا التمويلية</Anchor></List>
     <List><Anchor href="/" > من نحن</Anchor>
     <Subul>
