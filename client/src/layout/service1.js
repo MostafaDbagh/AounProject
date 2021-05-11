@@ -6,7 +6,7 @@ import myimg from '../img/fer.jpg'
 const Serviceond = () => {
     return ( 
         <>
-        <Repeateddiv img={myimg}/>
+        <Repeateddiv myimg={myimg}/>
         <SectionPro>
 <H2>
     تمويل الأثاث المنزلي والمكتبي والأجهزة الكهربائية والإلكترونية</H2>

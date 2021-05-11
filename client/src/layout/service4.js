@@ -7,7 +7,7 @@ import myimg from '../img/sun.jpg'
 const Serviceond = () => {
     return ( 
         <>
-        <Repeateddiv img={myimg}/>
+        <Repeateddiv myimg={myimg}/>
         <SectionPro>
 <H2>
     تمويل السخانات والالواح الشمسية</H2>

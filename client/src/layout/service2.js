@@ -8,7 +8,7 @@ import myimg from '../img/bat.jpg'
 const ServiceTwo = () => {
     return ( 
         <>
-        <Repeateddiv img={myimg} />
+        <Repeateddiv myimg={myimg} />
         <SectionPro>
 <H2>
     تمويل الاطارات وبطاريات السيارات الكهربائية (الهايبرد)</H2>
