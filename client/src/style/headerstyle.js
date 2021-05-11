@@ -4,10 +4,11 @@ import styled from  'styled-components'
 export const Header = styled.header`
 display:flex;
 flex-direction:column;
-width:90vw;
+width:100vw;
 margin:0 auto ;
 padding:15px;
 background:rgb(255,255,255);
+border-bottom:2px dotted rgb(50,55,60);
 @media(max-width:670px){
     width:100vw;
    

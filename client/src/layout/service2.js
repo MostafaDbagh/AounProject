@@ -2,11 +2,13 @@ import { Section } from "../style/servicestyle";
 import{SectionPro,H2,Li,P}from '../style/productstyle'
 
 import React from 'react'
-import { Repeateddiv } from "../style/commonstyle";
+
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/bat.jpg'
 const ServiceTwo = () => {
     return ( 
         <>
-        <Repeateddiv/>
+        <Repeateddiv img={myimg} />
         <SectionPro>
 <H2>
     تمويل الاطارات وبطاريات السيارات الكهربائية (الهايبرد)</H2>

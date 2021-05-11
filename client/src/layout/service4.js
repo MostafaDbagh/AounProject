@@ -1,12 +1,13 @@
 import { Section } from "../style/servicestyle";
 import{SectionPro,H2,Li,P}from '../style/productstyle'
 import React from 'react'
-import { Repeateddiv } from "../style/commonstyle";
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/sun.jpg'
 
 const Serviceond = () => {
     return ( 
         <>
-        <Repeateddiv/>
+        <Repeateddiv img={myimg}/>
         <SectionPro>
 <H2>
     تمويل السخانات والالواح الشمسية</H2>
