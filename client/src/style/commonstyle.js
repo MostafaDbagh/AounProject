@@ -14,34 +14,41 @@ margin:0 auto 32px auto;
 `
 
 export const Commondiv = styled.div`
-width:80%;
+width:90%;
 height:100px;
 text-align:center;
 margin:0 auto;
-position:relative;
 line-height:100px;
 over-flow:hidden;
 `
 export const H2 = styled.h2`
-position:relative;
+
 font-family:Cairo,sans-serif;
+width:165px;
+margin:0 auto;
 color:rgb(191,214,48);
+
+position:relative;
 &:before{
     position:absolute;
     content:'';
-    width:120px;
+    width:85px;
     height:2px;
     background:black;
     top:50%;
-    left:300px
+    left:-90px;
+  
+    
+  
 }
 &:after{
     position:absolute;
     content:'';
-    width:120px;
+    width:85px;
     height:2px;
     background:black;
     top:50%;
-    right:300px
+    right:-90px;
+   
 }
 `
