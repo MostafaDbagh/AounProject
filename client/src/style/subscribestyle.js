@@ -20,7 +20,7 @@ grid-gap:8px;
 
 `
 export const Subinput = styled.input`
-width:370px;
+width:340px;
 height:44px;
 
 padding:12px 18px;
@@ -54,7 +54,7 @@ padding:10px 20px;
 font-family:tajawal,sans-serif;
 
 
-margin:12px 16px 12px auto;
+margin:12px 32px 12px auto;
 
 @media(max-width:670px){
     left:100px;
@@ -77,9 +77,10 @@ export const ColumnSec = styled.section`
 display:flex;
 flex-direction:column;
 justify-content:center;
-align-items:flex-end;
+align-items:center;
 margin:8px;
 position:relative;
+
 
 
 `
@@ -90,7 +91,7 @@ justify-content:center;
 align-items:center;
 position:relative;
 margin:8px 0;
-padding:8px;
+padding:18px;
 
 
 `
