@@ -47,6 +47,7 @@ animation: ${movedimage};
 animation-duration: 8s;
 animation-iteration-count: infinite;
 animation-fill-mode:forwords;
+animation-delay: 3s;
 `
 export const Image2 = styled.img`
 animation-name: ${movedimage2};
