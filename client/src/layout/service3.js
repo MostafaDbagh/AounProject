@@ -2,12 +2,13 @@
 import { Section } from "../style/servicestyle";
 import React from 'react'
 import{SectionPro,H2,Li,P}from '../style/productstyle'
-import { Repeateddiv } from "../style/commonstyle";
+import  Repeateddiv  from './imgtitle'
+import myimg from '../img/Awn.jpg'
 
 const ServiceTwo = () => {
     return ( 
         <>
-        <Repeateddiv/>
+        <Repeateddiv myimg={myimg}/>
         <SectionPro>
 <H2>تقدم شركة العون خدماتها التمويلية لأصحاب المؤسسات و/أو الشركات الراغبين بشراء ما يحتاجونه من بضاعة
      او مستلزمات كهربائية لتطوير خدماتهم المقدمة لعملائهم

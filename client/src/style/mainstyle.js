@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 
-import Amman from '../img/main.jpg'
+import Firts from '../img/wel.jpg'
+import Second from '../img/second.jpg'
 
 const breatheAnimation = keyframes`
  0% { left:-1000px;opacity:0 }
@@ -13,14 +14,48 @@ const textup = keyframes`
  70%{opacity:0.6}
  100% { bottom:0;opacity:1 }
 `
+const movedimage = keyframes`
+0%{opacity:1 }
+25%{opacity:0.7}
+50%{opcity:0.4}
+
+
+
+100%{opacity:0}
+`
+const movedimage2 = keyframes`
+0%{opacity:0 }
+25%{opacity:0.4}
+50%{opcity:0.7}
+
+100%{opacity:1}
+
+100%{opacity:0}
+`
 
 export const MainDiv = styled.div`
-width:100%;
 
 height:550px;
+position:relative;
+
+
 
 
 `
+export const Image = styled.img`
+animation: ${movedimage};
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-fill-mode:forwords;
+`
+export const Image2 = styled.img`
+animation-name: ${movedimage2};
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-fill-mode:both;
+animation
+`
+
 export const Overlay = styled.div`
 width:100%;
 height:100%;

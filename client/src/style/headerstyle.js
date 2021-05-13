@@ -8,7 +8,7 @@ width:100vw;
 margin:0 auto ;
 padding:15px;
 background:rgb(255,255,255);
-border-bottom:2px dotted rgb(50,55,60);
+border-bottom:2px solid rgb(50,55,240);
 @media(max-width:670px){
     width:100vw;
    
