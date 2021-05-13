@@ -75,7 +75,7 @@ margin:8px;
 export const Section = styled.section`
 
 
-background:linear-gradient(to left,rgb(46,49,144),rgb(148,148,151));
+background:rgb(16,30,40);
 border-radius:25px;
 overflow:hidden;
 width:98%;

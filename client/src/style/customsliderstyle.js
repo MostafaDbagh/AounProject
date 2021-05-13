@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-
+import black from '../img/balck.jpg'
 
 export const Containerdiv = styled.div`
 display:flex;
 width:96vw;
 
-background:rgb(16,30,40);
+background:url(${black});
 min-height:320px;
 margin:32px auto;
 justify-content:space-around;
