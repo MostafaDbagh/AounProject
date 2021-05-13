@@ -17,7 +17,7 @@ const textup = keyframes`
 const movedimage = keyframes`
 0%{opacity:1 }
 50%{opcity:0.6}
-75%{opacity:0.3}
+75%{opacity:0.1}
 90%{opacity:0}
 
 
