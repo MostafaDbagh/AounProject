@@ -4,15 +4,15 @@ import styled from  'styled-components'
 export const Header = styled.header`
 display:flex;
 flex-direction:column;
-width:100vw;
+justify-content:space-around;
 margin:0 auto ;
-padding:15px;
-background:rgb(255,255,255);
-border-bottom:2px solid rgb(50,55,240);
-@media(max-width:670px){
-    width:100vw;
-   
-}
+
+
+
+
+
+
+
 
 
 
@@ -33,7 +33,7 @@ align-items:center;
 
 `
 export let Logo = styled.div`
-flex-basis:20%;
+
 
 font-family:Cairo,sans-serif;
 @media(max-width:670px){
@@ -44,13 +44,13 @@ font-family:Cairo,sans-serif;
 export let Phone = styled.div`
 font-family:Cairo,sans-serif;
 font-size:18px;
-flex-basis:25%;
+
 @media(max-width:670px){
     display:none
 }
 `
 export let Mail = styled.div`
-flex-basis:25%;
+
 font-size:18px;
 font-family:Cairo ,sans-serif;
 @media(max-width:670px){
@@ -58,8 +58,7 @@ font-family:Cairo ,sans-serif;
 }
 `
 export let Divbutton = styled.div`
-flex-basis:20%;
-text-align:center;
+
 `
 
 export const Nav = styled.nav`
@@ -152,9 +151,9 @@ color:black;
 }
 `
 export const Button = styled.button`
-width:80px;
-height:40px;
-padding:10px 8px;
+width:40px;
+
+padding:10px 0px ;
 border:none;   
 background: transparent;
 outline:none;
