@@ -47,7 +47,7 @@ const Subscribe = () => {
 <h3 style={{ padding:'26px 10px',
 color:'rgb(248,248,251)',fontFamily:"tajawal,sans-serif",fontSize:'24px',width:'100%',textAlign:'end',color:'rgb(172,173,177)'}}>تابع اخر الأخبار ليصلك كل جديد</h3>
 
-<Subinput type="text" placeholder="أدخل بريدكالإلكتروني هنا" style={{marginBottom:'32px'}} onChange={(e)=>setSubemail(e.target.value)}>
+<Subinput type="text" placeholder="أدخل بريدك الإلكتروني هنا" style={{marginBottom:'32px'}} onChange={(e)=>setSubemail(e.target.value)}>
 
 </Subinput>
 <span style={spanStyle} ref={spanRef1}>الايميل المدخل غير صحيح</span>

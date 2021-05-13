@@ -18,10 +18,9 @@ width:80%;
 height:100px;
 text-align:center;
 margin:0 auto;
-
-
 position:relative;
 line-height:100px;
+over-flow:hidden;
 `
 export const H2 = styled.h2`
 position:relative;
