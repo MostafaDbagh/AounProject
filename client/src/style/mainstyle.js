@@ -16,21 +16,21 @@ const textup = keyframes`
 `
 const movedimage = keyframes`
 0%{opacity:1 }
-25%{opacity:0.7}
-50%{opcity:0.4}
-
+50%{opcity:0.6}
+75%{opacity:0.3}
+90%{opacity:0}
 
 
 100%{opacity:0}
 `
 const movedimage2 = keyframes`
 0%{opacity:0 }
-25%{opacity:0.4}
-50%{opcity:0.7}
 
+
+80%{opacity:0.2}
 100%{opacity:1}
 
-100%{opacity:0}
+
 `
 
 export const MainDiv = styled.div`
@@ -44,7 +44,7 @@ position:relative;
 `
 export const Image = styled.img`
 animation: ${movedimage};
-animation-duration: 4s;
+animation-duration: 8s;
 animation-iteration-count: infinite;
 animation-fill-mode:forwords;
 `
