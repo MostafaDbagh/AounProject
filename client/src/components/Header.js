@@ -5,8 +5,12 @@ import React from 'react'
 import Navbar from './Navbar'
 import {useState} from 'react'
 import Logoimg from '../img/logo.png'
+import {useMediaQuery} from 'react-responsive'
 
 const NavSec = () => {
+    const safiquery = useMediaQuery({
+        query:'(max-width:470px)'
+    })
 const [isClicked,setClicked] = useState(false);
     return (
 <Header>

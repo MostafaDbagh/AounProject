@@ -31,7 +31,8 @@ border:0;
 box-shadow:0px 0 1px 1px rgb(16,18,20) inset;
 `
 export const Subbutton = styled.button`
-margin: 0 8px ;
+
+
 background:rgb(10,183,255);
 padding:6px 18px;
 width:112px;
@@ -40,7 +41,10 @@ border-radius:2px;
 border:1px solid white;
 font-size:16px;
 font-family:tajawal,sans-serif;
-color:rgb(248,248,251)
+color:rgb(248,248,251);
+position:relative;
+
+
 `
 export const Anchorsocial = styled.a`
 display:block;
@@ -77,7 +81,7 @@ export const ColumnSec = styled.section`
 display:flex;
 flex-direction:column;
 justify-content:center;
-align-items:center;
+align-items:flex-end;
 margin:8px;
 position:relative;
 
@@ -91,7 +95,6 @@ justify-content:center;
 align-items:center;
 position:relative;
 margin:8px 0;
-padding:18px;
 
 
 `
