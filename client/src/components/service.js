@@ -191,10 +191,12 @@ return (
             first:e.target.value
         })}>
            
-          <option value="" disabled defaultValue>- اختر قيمة -</option>
-          <option value="saab">Saab</option>
-          <option value="fiat">Fiat</option>
-          <option value="audi">Audi</option>
+      
+          <option value="saab" > - اختر قيمة -</option>
+          <option value="saab">تمويل عون</option>
+          <option value="fiat">تمويل الأثاث المنولي والأجهزة الكخربائية</option>
+          <option value="audi"> التمويل بطاريات السيارات الكهربائية</option>
+          <option value="audi">تمويل  السخانات</option>
           </Select> 
           <span style={spanStyle} ref={spanRef}>not valid</span>
       </div>

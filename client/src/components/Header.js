@@ -1,6 +1,6 @@
 import {Column,Header,Logo,Phone,Mail,Divbutton,Button } from '../style/headerstyle'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes, faEnvelope, faPhone,faBars } from '@fortawesome/free-solid-svg-icons'
+import { faTimes, faEnvelope, faPhone,faBars, faRubleSign } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import Navbar from './Navbar'
 import {useState} from 'react'
@@ -30,7 +30,7 @@ const [isClicked,setClicked] = useState(false);
     <Divbutton >
     <Button onClick={()=>setClicked(!isClicked)}>
      
-        <FontAwesomeIcon icon={isClicked ?faTimes:faBars}></FontAwesomeIcon>
+        <FontAwesomeIcon icon={isClicked ?faTimes:faBars} style={{color:"rgb(10,183,255)"}}></FontAwesomeIcon>
     </Button>
     </Divbutton>
 </Column>

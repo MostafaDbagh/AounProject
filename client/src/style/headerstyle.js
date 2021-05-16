@@ -2,20 +2,11 @@ import styled from  'styled-components'
 
 
 export const Header = styled.header`
-display:flex;
-flex-direction:column;
-justify-content:space-around;
-margin:0 auto ;
-
-
-
-
-
-
-
-
-
-
+opacity:0.7;
+position:fixed;
+margin: 0 0 32px auto ;
+z-index:9999;
+width:100%;
 `
 export const Column = styled.div`
 display:flex;

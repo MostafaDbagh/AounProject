@@ -15,8 +15,9 @@ const Main  = () => {
     query:'(max-width:510px)'
 })
   return (  
+    <>
 
-     <MainDiv >
+     <MainDiv  >
        {query ?
        <>
           <img src={resp2} width="100%" height="100%" style={{objectFit:'container',position:'absolute',top:'0',left:'0'}}/> 
@@ -30,7 +31,7 @@ const Main  = () => {
        }
       
  </MainDiv> 
-
+</>
    
   );
 }
