@@ -2,30 +2,22 @@ import styled from  'styled-components'
 
 
 export const Header = styled.header`
-opacity:0.7;
-position:fixed;
-margin: 0 0 32px auto ;
-z-index:9999;
 width:100%;
+height:90px;
+
+position:sticky;
+top:1px;
+
 `
 export const Column = styled.div`
 display:flex;
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
-
-
-
-
-
-
-
-
-
-
+@media(max-width:670px){
+    justify-content:space-between;
+}
 `
 export let Logo = styled.div`
-
-
 font-family:Cairo,sans-serif;
 @media(max-width:670px){
     flex-basis:auto

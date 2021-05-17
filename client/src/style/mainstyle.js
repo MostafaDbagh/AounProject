@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 
-import Firts from '../img/wel.jpg'
-import Second from '../img/second.jpg'
+
 
 const breatheAnimation = keyframes`
  0% { left:-1000px;opacity:0 }

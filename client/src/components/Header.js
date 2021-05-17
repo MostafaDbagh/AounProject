@@ -14,6 +14,7 @@ const NavSec = () => {
 const [isClicked,setClicked] = useState(false);
     return (
 <Header>
+   
     <Column>
     <Logo>
     <img src={Logoimg} alt="awnLogo" width="140px" height="85px"/>

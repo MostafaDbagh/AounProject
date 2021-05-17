@@ -3,13 +3,13 @@
 import {MainDiv,Overlay,H1,P,Image,Image2} from '../style/mainstyle'
 import React  from 'react'
 import resp from '../img/resp.jpg'
-import resp2 from '../img/resp3.jpg'
+import resp2 from '../img/resp2.jpg'
 import Firts from '../img/anwar.jpg'
 import Second from '../img/second.jpg'
 import {useMediaQuery} from 'react-responsive'
 import { useState } from 'react'
 const Main  = () => {
-  const [change,setChange] = useState(false);
+  
   
   const query = useMediaQuery({
     query:'(max-width:510px)'
