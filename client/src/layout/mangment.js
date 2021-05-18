@@ -8,7 +8,7 @@ const Mangment = () => {
         <>
         <Repeateddiv myimg={myimg}  />
         <article style={{direction:'rtl'}}>
-            <H1 style={{textAlign:'center'}}>الإدارة التنفيذية</H1>
+            <H1 style={{textAlign:'start'}}>الإدارة التنفيذية</H1>
             <div style={{width:"100%",height:"24px"}}></div>
             <table style={{display:'flex',justifyContent:'center',alignItems:'center'}} >
                 <tbody>
@@ -28,13 +28,19 @@ const Mangment = () => {
                             <p style={{margin:" 12px 0px 12px 0",fontSize:"22px",fontFamily:'cairo,sans-serif'}}><b>محمد نجيب المومني </b></p></td>
                        
                     </tr>
+
+                  
+                  
+                </tbody>
+            </table>
+            <table style={{display:'flex',justifyContent:'flex-start',alignItems:'center',marginBottom:'32px'}} >
+                <tbody >
                     <tr>
                         <td>
-                            <h2 style={{fontFamily:'tajawal,sans-serif'}}>
+                            <h2 style={{fontFamily:'tajawal,sans-serif',textAlign:'center',marginRight:'32px'}}>
                                 <em>
-                                              
-    رئيس مجلس الإدارة 
-                       :
+                            مدير العام
+                            :
                             </em>
                             </h2>
                             </td>
@@ -42,12 +48,11 @@ const Mangment = () => {
                     </tr>
                     <tr>
                         <td>
-                            <p style={{margin:" 12px 0px 72px 0",fontSize:"22px",fontFamily:'cairo,sans-serif'}}><b>
-                         
-    رامي نجيب المومني
-                                 </b></p></td>
+                            <p style={{margin:" 12px 0px 12px 0",fontSize:"22px",fontFamily:'cairo,sans-serif',marginRight:'32px'}}><b>محمد نجيب المومني </b></p></td>
                        
                     </tr>
+                   
+                  
                   
                 </tbody>
             </table>
@@ -58,3 +63,4 @@ const Mangment = () => {
  
 export default Mangment;
 
+                   
