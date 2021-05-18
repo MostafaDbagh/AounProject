@@ -125,7 +125,7 @@ return (
         </Commondiv>
     
     
-         <div style={{width:'86%',margin:'32px auto',display:'flex'}} >
+         <div style={{width:'86%',margin:'0 auto 32px',display:'flex'}} >
         <Main>
       
            

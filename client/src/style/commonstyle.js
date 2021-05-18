@@ -15,9 +15,9 @@ margin:0 auto 32px auto;
 
 export const Commondiv = styled.div`
 width:90%;
-height:100px;
+height:60px;
 text-align:center;
-margin:0 auto;
+margin:0 auto 12px;
 line-height:100px;
 over-flow:hidden;
 `
@@ -25,7 +25,7 @@ export const H2 = styled.h2`
 
 font-family:Cairo,sans-serif;
 width:165px;
-margin:0 auto;
+margin:0 auto 16px;
 color:rgb(191,214,48);
 
 position:relative;

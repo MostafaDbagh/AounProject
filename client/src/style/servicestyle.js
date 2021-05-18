@@ -48,7 +48,7 @@ height:225px;
 justify-content:center;
 align-items:center;
 flex-wrap:wrap;
-margin:32px auto;
+margin:0px auto 32px;
 text-align:center;
 
 padding:6px;

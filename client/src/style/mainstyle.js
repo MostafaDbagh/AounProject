@@ -34,7 +34,7 @@ const movedimage2 = keyframes`
 
 export const MainDiv = styled.div`
 
-height:550px;
+height:360px;
 position:relative;
 
 
