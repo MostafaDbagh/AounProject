@@ -12,6 +12,7 @@ const Customslider = () => {
     return ( 
         <Containerdiv >
         
+
       {/* <Childiv >
         <img src={imgArr[num]} width="100%"height="100%"  />
       </Childiv>
@@ -19,14 +20,7 @@ const Customslider = () => {
       <Childiv >
       <img src={imgArr[num+1]} width="100%"height="100%"  />
       </Childiv> */}
-      {/* <Childiv >
-        <img src={imgArr[num]} width="100%"height="100%"  />
-      </Childiv>
-
-      <Childiv >
-      <img src={imgArr[num+1]} width="100%"height="100%"  />
-      </Childiv> */}
-  <Buttondiv >
+  {/* <Buttondiv >
       <Arrowbtn onClick={()=> {
 if(num >1){
     setNum(0)
@@ -46,7 +40,7 @@ setNum(++num)
 
         } }><FontAwesomeIcon icon={faLongArrowAltRight} ></FontAwesomeIcon></Arrowbtn>
     
-    </Buttondiv>
+    </Buttondiv> */}
         </Containerdiv>
      );
 }
