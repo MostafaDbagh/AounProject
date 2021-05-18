@@ -60,8 +60,9 @@ color:'rgb(248,248,251)',fontFamily:"tajawal,sans-serif",fontSize:'24px',width:'
     <ArticleSec data-aos='slide-left' data-aos-duration='1000'data-aos-delay='300'>
         <h2 style={{marginBottom:'12px',textAlign:'end',width:"90%",marginRight:'2%',fontFamily:'Cairo,sans-serif',color:'rgb(235,233,225)'}}>اتصل بنا</h2>
         <p  style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}>  الأردن عمان</p>
-        <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong >+هاتف. &nbsp;</strong>06/5055713</p>
-        <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong>+جوال. &nbsp;</strong>077889929</p>
+        <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong >هاتف. &nbsp;</strong>
+        065055713</p>
+        <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong>جوال. &nbsp;</strong>077889929</p>
         <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong>العنوان. &nbsp;</strong>
                عمان-الهاشمي الشمالي-اشارة الأمير حمزة<br/>-مجمع اسماعيل البلبيسي ط2 مكتب 2.</p>
                <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}>info@awnfinance.com<strong>&nbsp;البريدالإلكتروني </strong></p>
