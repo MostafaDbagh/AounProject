@@ -12,22 +12,24 @@ const Mangment = () => {
             <div style={{width:"100%",height:"24px"}}></div>
             <table style={{display:'flex',justifyContent:'center',alignItems:'center'}} >
                 <tbody>
-                    <tr>
+                <tr>
                         <td>
-                            <h2 style={{fontFamily:'tajawal,sans-serif',textAlign:'center'}}>
+                            <p style={{margin:" 12px 0px 12px 0",fontSize:"22px",fontFamily:'Almarai, sans-serif'}}><b>رامي  المومني </b></p></td>
+                       
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            <h2 style={{fontFamily: 'tajawal,sans-serif',textAlign:'center'}}>
                                 <em>
-                            مدير العام
-                            :
+رئيس مجلس الإدارة
+                            
                             </em>
                             </h2>
                             </td>
                        
                     </tr>
-                    <tr>
-                        <td>
-                            <p style={{margin:" 12px 0px 12px 0",fontSize:"22px",fontFamily:'cairo,sans-serif'}}><b>محمد نجيب المومني </b></p></td>
-                       
-                    </tr>
+               
 
                   
                   
@@ -35,22 +37,24 @@ const Mangment = () => {
             </table>
             <table style={{display:'flex',justifyContent:'flex-start',alignItems:'center',marginBottom:'32px'}} >
                 <tbody >
+
+                <tr>
+                        <td>
+                            <p style={{margin:" 12px 0px 12px 0",fontSize:"22px",fontFamily:'Almarai, sans-serif',marginRight:'32px'}}><b>محمد  المومني </b></p></td>
+                       
+                    </tr>
                     <tr>
                         <td>
                             <h2 style={{fontFamily:'tajawal,sans-serif',textAlign:'center',marginRight:'32px'}}>
                                 <em>
                             مدير العام
-                            :
+                            
                             </em>
                             </h2>
                             </td>
                        
                     </tr>
-                    <tr>
-                        <td>
-                            <p style={{margin:" 12px 0px 12px 0",fontSize:"22px",fontFamily:'cairo,sans-serif',marginRight:'32px'}}><b>محمد نجيب المومني </b></p></td>
-                       
-                    </tr>
+                
                    
                   
                   
