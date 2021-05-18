@@ -62,7 +62,7 @@ color:'rgb(248,248,251)',fontFamily:"tajawal,sans-serif",fontSize:'24px',width:'
         <p  style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}>  الأردن عمان</p>
         <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong >هاتف. &nbsp;</strong>
         065055713</p>
-        <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong>جوال. &nbsp;</strong>077889929</p>
+        <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong>جوال. &nbsp;</strong>0778899929</p>
         <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}><strong>العنوان. &nbsp;</strong>
                عمان-الهاشمي الشمالي-اشارة الأمير حمزة<br/>-مجمع اسماعيل البلبيسي ط2 مكتب 2.</p>
                <p style={{marginBottom:'8px',width:"90%" ,textAlign:'end',fontSize:'18px',marginRight:'2%',fontFamily:'tajawal,sans-serif',color:'rgb(172,173,177)'}}>info@Aounfinance.com<strong>&nbsp;البريدالإلكتروني </strong></p>
