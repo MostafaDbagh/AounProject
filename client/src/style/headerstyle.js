@@ -2,22 +2,31 @@ import styled from  'styled-components'
 
 
 export const Header = styled.header`
-width:100%;
-height:90px;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
 
-position:sticky;
-top:1px;
 
 `
 export const Column = styled.div`
 display:flex;
-justify-content:space-around;
+justify-content:space-between;
 align-items:center;
-@media(max-width:670px){
-    justify-content:space-between;
-}
+
+
+
+
+
+
+
+
+
+
+
 `
 export let Logo = styled.div`
+
+
 font-family:Cairo,sans-serif;
 @media(max-width:670px){
     flex-basis:auto

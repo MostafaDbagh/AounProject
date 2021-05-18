@@ -203,14 +203,12 @@ return (
 
       <div style={{display:'flex',flexDirection:'column',alignItems:'flex-end'}}>
       <Label htmlFor="cars"></Label>
-      <Select ref={selectRef2}  onChange={(e)=>setFinanceinfo({
+      <Select ref={selectRef2} disable  onChange={(e)=>setFinanceinfo({
           ...financeInfo,
           second:e.target.value
       })}>
-      <option value="" disabled defaultValue hidden>- اختر قيمة -</option>
-          <option value="saab">Saab</option>
-          <option value="fiat">Fiat</option>
-          <option value="audi">Audi</option>
+  
+  
           </Select>
           <span style={spanStyle} ref={spanRef1}>not valid</span>
       </div>
